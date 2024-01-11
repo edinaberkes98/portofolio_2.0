@@ -1,0 +1,106 @@
+.background-color{
+    background-color:#eed4bd;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #eed4bd, #e1b56f, #e3c8ad);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+p{
+    font-weight: 600;
+    font-size: 23px;
+}
+
+  /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skill-container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.container-contact{
+    margin-bottom: 0px;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+.java {width: 80%; background-color: #60cda5;} /* Green */
+.spring {width: 80%; background-color: #4ba6f0;} /* Blue */
+.html {width: 65%; background-color: #e7675e;} /* Red */
+.css {width: 65%; background-color: rgb(197, 104, 197);} /* Dark Grey */
+.bootstrap {width: 60%; background-color: rgb(186, 156, 156)} /* Dark Grey */
+
+.skill-list-container{
+    height: 20%;
+    /* we need 80% for phone and 40% for desktop */
+    width: 80%;
+}
+
+.list-group-item{
+    background-color: white;
+}
+
+.alignment{
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    margin-top: 150px;
+}
+
+#skills-list {
+    /* We need this for the phone format */
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 130vh;
+    width: 100%;
+}
+
+.skill-div{
+    margin: 40px;
+}
+
+h2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 50px !important;;
+}
+
+.italic-font{
+    font-family: 'Dancing Script', cursive;
+}
+
+.serif-font{
+font-family: 'Libre Baskerville', serif;
+}
+
